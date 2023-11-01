@@ -60,47 +60,58 @@ function loadQuestions() {
     // Retrieve the question object at the random index
     const randomQuestion = questions[randomIndex];
 
-    // Log the question, options, and answer to the console (you can replace these with your display logic)
-    console.log("Question: " + randomQuestion.question);
-    console.log("Options: " + randomQuestion.options.join(", "));
-    console.log("Answer: " + randomQuestion.answer);
+    // Call the function to display the question and answer options
+    displayQuestion(randomQuestion);
+}
+
+// Function to display questions and answer options
+function displayQuestion(question) {
+    // Display the question
+    const questionContainer = document.getElementById("questionText");
+    questionContainer.textContent = question.question;
+
+    // Display the answer options
+    const answerContainer = document.getElementById("answerOptions");
+    answerContainer.innerHTML = ""; // Clear previous options
+
+    question.options.forEach((option, index) => {
+        const optionElement = document.createElement("li");
+        optionElement.classList.add("answer-option");
+        optionElement.textContent = option;
+        answerContainer.appendChild(optionElement);
+    });
 }
 
 // Call the loadQuestions function to load a random question
 loadQuestions();
 
 
-// Function to display questions and answer options
-function displayQuestion() {
+    // Function to handle user's answer selection
+    function handleAnswerSelection() {
 
-}
+    }
 
-// Function to handle user's answer selection
-function handleAnswerSelection() {
+    // Function to update the score and progress
+    function updateScoreAndProgress() {
 
-}
+    }
 
-// Function to update the score and progress
-function updateScoreAndProgress() {
+    // Function to display the final result
+    function displayResult() {
 
-}
+    }
 
-// Function to display the final result
-function displayResult() {
+    // Function to handle the click event on the next button
+    function handleNextButtonClick() {
 
-}
+    }
 
-// Function to handle the click event on the next button
-function handleNextButtonClick() {
+    // Function to initialize the quiz
+    function initializeQuiz() {
 
-}
+    }
 
-// Function to initialize the quiz
-function initializeQuiz() {
-
-}
-
-// Call the initializeQuiz function when the window loads
-window.onload = function () {
-    initializeQuiz();
-};
+    // Call the initializeQuiz function when the window loads
+    window.onload = function () {
+        initializeQuiz();
+    };
