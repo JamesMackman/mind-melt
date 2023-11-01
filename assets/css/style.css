@@ -30,6 +30,30 @@ main {
     padding: 2rem;
 }
 
+/* Progress bar section */
+progress {
+    width: 100%;
+    height: 30px;
+}
+
+progress[value] {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+/* Style the progress bar track */
+progress[value]::-webkit-progress-bar {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+/* Style the progress bar fill */
+progress[value]::-webkit-progress-value {
+    background-color: #4caf50;
+    border-radius: 5px;
+}
+
+/* Question section */
 #question {
     background: #fff;
     padding: 1.5rem;
@@ -37,6 +61,7 @@ main {
     border-radius: 5px;
 }
 
+/* Answers section */
 #answers {
     list-style-type: none;
     padding: 0;
@@ -54,6 +79,7 @@ main {
     background: #e4e4e4;
 }
 
+/* Score section */
 #score {
     background: #fff;
     padding: 1.5rem;
@@ -61,6 +87,7 @@ main {
     border-radius: 5px;
 }
 
+/* Next button section */
 #nextButton {
     display: block;
     width: 100%;
@@ -72,6 +99,7 @@ main {
     cursor: pointer;
 }
 
+/* Footer */
 footer {
     background: #333;
     color: #fff;
