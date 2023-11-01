@@ -1,20 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome and google fonts -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Document</title>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    
-</head>
-<body>
-    
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="heading">
+        <img class="logo" src="assets/images/logo.png" alt="logo" /> Mind Melt
+      </h1>
+      <p class="opening-message">
+        Welcome to Mind Melt, where knowledge is your greatest asset. Prepare to
+        challenge your intellect and delve into a world of facts, trivia, and
+        mind-boggling questions. Let's ignite the flames of curiosity and embark
+        on a journey of discovery together. Are you ready to let your mind melt
+        with excitement and knowledge? Let the quest for wisdom begin!
+      </p>
+    </header>
+
+    <main>
+      <section id="question">
+        <!-- Question will be dynamically loaded here -->
+      </section>
+      <section id="answers">
+        <!-- Answer options will be dynamically loaded here -->
+      </section>
+      <section id="score">
+        <p>Score: <span id="scoreValue">0</span></p>
+        <p>Correct Answers: <span id="correctAnswers">0</span></p>
+        <p>Incorrect Answers: <span id="incorrectAnswers">0</span></p>
+      </section>
+      <button id="nextButton">Next</button>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Mind Melt Quiz Game</p>
+    </footer>
+
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
