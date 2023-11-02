@@ -118,11 +118,18 @@ function handleAnswerSelection(selectedAnswer, correctAnswer) {
     selectedAnswer = null;
     // Load a new question after handling the current answer
     loadQuestions();
+    // Update the score and progress
+    updateScoreAndProgress();
 }
 
 // Function to update the score and progress
 function updateScoreAndProgress() {
-
+    const scoreElement = document.getElementById("scoreValue");
+    const correctElement = document.getElementById("correctAnswers");
+    const incorrectElement = document.getElementById("incorrectAnswers");
+    scoreElement.textContent = score;
+    correctElement.textContent = correctAnswers;
+    incorrectElement.textContent = questions.length - correctAnswers;
 }
 
 // Function to display the final result
