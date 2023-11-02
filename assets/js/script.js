@@ -52,6 +52,8 @@ const questions = [
     }
 ];
 
+let selectedAnswer = null; // Variable to keep track of the selected answer
+
 // Function to load a random question
 function loadQuestions() {
     // Select a random index from the questions array
@@ -75,16 +77,21 @@ function displayQuestion(question) {
     answerContainer.innerHTML = ""; // Clear previous options
 
     question.options.forEach((option, index) => {
-        const optionElement = document.createElement("li");
+        const optionElement = document.createElement("td");
         optionElement.classList.add("answer-option");
         optionElement.textContent = option;
         answerContainer.appendChild(optionElement);
+
+        optionElement.addEventListener('click', () => {
+            selectedAnswer = option; // Update the selected answer
+            // Add visual indication that an answer has been selected (e.g., change background color)
+            optionElement.style.backgroundColor = "lightblue";
+        });
     });
 }
 
 // Call the loadQuestions function to load a random question
 loadQuestions();
-
 
 // Function to handle user's answer selection
 function handleAnswerSelection(selectedAnswer, correctAnswer) {
@@ -93,7 +100,8 @@ function handleAnswerSelection(selectedAnswer, correctAnswer) {
     } else {
         alert("Incorrect. The correct answer is: " + correctAnswer);
     }
-
+    // Reset the selected answer for the next question
+    selectedAnswer = null;
     // Load a new question after handling the current answer
     loadQuestions();
 }
