@@ -31,8 +31,8 @@ const questions = [
         answer: "Canada"
     },
     {
-        question: "Which language is the most spoken worldwide?",
-        options: ["Spanish", "English", "Mandarin Chinese", "Hindi"],
+        question: "What country has the largest underground tunnel?",
+        options: ["Italy", "Russia", "France", "Norway"],
         answer: "Mandarin Chinese"
     },
     {
