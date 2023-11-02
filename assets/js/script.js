@@ -86,32 +86,39 @@ function displayQuestion(question) {
 loadQuestions();
 
 
-    // Function to handle user's answer selection
-    function handleAnswerSelection() {
-
+// Function to handle user's answer selection
+function handleAnswerSelection(selectedAnswer, correctAnswer) {
+    if (selectedAnswer === correctAnswer) {
+        alert("Correct!");
+    } else {
+        alert("Incorrect. The correct answer is: " + correctAnswer);
     }
 
-    // Function to update the score and progress
-    function updateScoreAndProgress() {
+    // Load a new question after handling the current answer
+    loadQuestions();
+}
 
-    }
+// Function to update the score and progress
+function updateScoreAndProgress() {
 
-    // Function to display the final result
-    function displayResult() {
+}
 
-    }
+// Function to display the final result
+function displayResult() {
 
-    // Function to handle the click event on the next button
-    function handleNextButtonClick() {
+}
 
-    }
+// Function to handle the click event on the next button
+function handleNextButtonClick() {
 
-    // Function to initialize the quiz
-    function initializeQuiz() {
+}
 
-    }
+// Function to initialize the quiz
+function initializeQuiz() {
 
-    // Call the initializeQuiz function when the window loads
-    window.onload = function () {
-        initializeQuiz();
-    };
+}
+
+// Call the initializeQuiz function when the window loads
+window.onload = function () {
+    initializeQuiz();
+};
