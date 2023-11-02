@@ -72,6 +72,7 @@ function displayQuestion(question) {
     const questionContainer = document.getElementById("questionText");
     questionContainer.textContent = question.question;
 
+
     // Display the answer options
     const answerContainer = document.getElementById("answerOptions");
     answerContainer.innerHTML = ""; // Clear previous options
@@ -80,12 +81,25 @@ function displayQuestion(question) {
         const optionElement = document.createElement("td");
         optionElement.classList.add("answer-option");
         optionElement.textContent = option;
+        optionElement.setAttribute("data-option", option); // Set a data attribute for the option
         answerContainer.appendChild(optionElement);
 
         optionElement.addEventListener('click', () => {
-            selectedAnswer = option; // Update the selected answer
-            // Add visual indication that an answer has been selected (e.g., change background color)
-            optionElement.style.backgroundColor = "lightblue";
+            if (selectedAnswer === option) {
+                // Deselect the option if it is already selected
+                selectedAnswer = null;
+                optionElement.style.backgroundColor = ""; // Reset the background color
+            } else {
+                // Change the selected answer when a different option is clicked
+                const prevOption = answerContainer.querySelector(
+                    `[data-option="${selectedAnswer}"]`
+                );
+                if (prevOption) {
+                    prevOption.style.backgroundColor = ""; // Reset the background color of the previous selection
+                }
+                selectedAnswer = option; // Update the selected answer
+                optionElement.style.backgroundColor = "lightblue"; // Add visual indication for the selected option
+            }
         });
     });
 }
