@@ -127,7 +127,6 @@ function handleNextButtonClick() {
             correctAnswers++; // Increment the count of correct answers
         } else {
             alert(`Incorrect. The correct answer is: ${currentQuestion.answer}`);
-            score = Math.max(0, score - 1); // Decrease the score by 1 if the answer is incorrect
             incorrectAnswers = Math.max(0, incorrectAnswers + 1); // Increment the count of incorrect answers by 1, starting from 0
         }
         progress++; // Increase the progress
@@ -143,7 +142,6 @@ function updateScore(isCorrect) {
         correctAnswers++;
     } else {
         incorrectAnswers = Math.max(0, incorrectAnswers + 1); // Increment the count of incorrect answers by 1, starting from 0
-        score = Math.max(0, score - 1); // Decrease the score by 1 if the answer is incorrect
     }
     updateScoreAndProgress(); // Call the function to update the UI with the new values
 }
