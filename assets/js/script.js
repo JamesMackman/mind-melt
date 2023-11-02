@@ -1,4 +1,3 @@
-// Array of general knowledge questions
 const questions = [
     {
         question: "What is the capital of France?",
@@ -52,11 +51,12 @@ const questions = [
     }
 ];
 
-// Define global variables
-let selectedAnswer = null; // Variable to keep track of the selected answer
-let progress = 0; // Variable to keep track of the progress
-let score = 0; // Variable to keep track of the score
-let correctAnswers = 0; // Variable to keep track of the number of correct answers
+// Initialize variables
+let score = 0;
+let correctAnswers = 0;
+let incorrectAnswers = 0;
+let selectedAnswer = null;
+let progress = 0;
 
 // Function to load questions sequentially
 function loadQuestions() {
@@ -127,10 +127,25 @@ function handleNextButtonClick() {
             correctAnswers++; // Increment the count of correct answers
         } else {
             alert(`Incorrect. The correct answer is: ${currentQuestion.answer}`);
+            score = Math.max(0, score - 1); // Decrease the score by 1 if the answer is incorrect
+            incorrectAnswers = Math.max(0, incorrectAnswers + 1); // Increment the count of incorrect answers by 1, starting from 0
         }
         progress++; // Increase the progress
+        updateScoreAndProgress(); // Update the score and progress immediately
         loadQuestions(); // Load the next question
     }
+}
+
+// Function to update the score based on the user's answer
+function updateScore(isCorrect) {
+    if (isCorrect) {
+        score++;
+        correctAnswers++;
+    } else {
+        incorrectAnswers = Math.max(0, incorrectAnswers + 1); // Increment the count of incorrect answers by 1, starting from 0
+        score = Math.max(0, score - 1); // Decrease the score by 1 if the answer is incorrect
+    }
+    updateScoreAndProgress(); // Call the function to update the UI with the new values
 }
 
 // Function to update the score and progress
@@ -140,7 +155,7 @@ function updateScoreAndProgress() {
     const incorrectElement = document.getElementById("incorrectAnswers");
     scoreElement.textContent = score;
     correctElement.textContent = correctAnswers;
-    incorrectElement.textContent = questions.length - correctAnswers;
+    incorrectElement.textContent = incorrectAnswers;
 }
 
 // Function to initialize the quiz
