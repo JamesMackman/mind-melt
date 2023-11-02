@@ -33,7 +33,7 @@ const questions = [
     {
         question: "What country has the largest underground tunnel?",
         options: ["Italy", "Russia", "France", "Norway"],
-        answer: "Mandarin Chinese"
+        answer: "Norway"
     },
     {
         question: "What is the largest ocean on Earth?",
@@ -52,18 +52,30 @@ const questions = [
     }
 ];
 
+// Define global variables
 let selectedAnswer = null; // Variable to keep track of the selected answer
+let progress = 0; // Variable to keep track of the progress
+let score = 0; // Variable to keep track of the score
+let correctAnswers = 0; // Variable to keep track of the number of correct answers
 
-// Function to load a random question
+// Function to load questions sequentially
 function loadQuestions() {
-    // Select a random index from the questions array
-    const randomIndex = Math.floor(Math.random() * questions.length);
+    if (progress >= questions.length) {
+        // Handle the end of the quiz
+        alert(
+            `Quiz complete! Your final score is ${score}. You answered ${correctAnswers} out of ${questions.length} questions correctly.`
+        );
+        // Reset the variables for a new quiz
+        progress = 0;
+        score = 0;
+        correctAnswers = 0;
+        return;
+    }
 
-    // Retrieve the question object at the random index
-    const randomQuestion = questions[randomIndex];
+    const currentQuestion = questions[progress];
 
     // Call the function to display the question and answer options
-    displayQuestion(randomQuestion);
+    displayQuestion(currentQuestion);
 }
 
 // Function to display questions and answer options
@@ -71,7 +83,6 @@ function displayQuestion(question) {
     // Display the question
     const questionContainer = document.getElementById("questionText");
     questionContainer.textContent = question.question;
-
 
     // Display the answer options
     const answerContainer = document.getElementById("answerOptions");
@@ -104,22 +115,22 @@ function displayQuestion(question) {
     });
 }
 
-// Call the loadQuestions function to load a random question
-loadQuestions();
-
-// Function to handle user's answer selection
-function handleAnswerSelection(selectedAnswer, correctAnswer) {
-    if (selectedAnswer === correctAnswer) {
-        alert("Correct!");
+// Function to handle the click event on the next button
+function handleNextButtonClick() {
+    if (selectedAnswer === null) {
+        alert("Please select an answer.");
     } else {
-        alert("Incorrect. The correct answer is: " + correctAnswer);
+        const currentQuestion = questions[progress];
+        if (selectedAnswer === currentQuestion.answer) {
+            alert("Correct!");
+            score++; // Increment the score for a correct answer
+            correctAnswers++; // Increment the count of correct answers
+        } else {
+            alert(`Incorrect. The correct answer is: ${currentQuestion.answer}`);
+        }
+        progress++; // Increase the progress
+        loadQuestions(); // Load the next question
     }
-    // Reset the selected answer for the next question
-    selectedAnswer = null;
-    // Load a new question after handling the current answer
-    loadQuestions();
-    // Update the score and progress
-    updateScoreAndProgress();
 }
 
 // Function to update the score and progress
@@ -132,22 +143,11 @@ function updateScoreAndProgress() {
     incorrectElement.textContent = questions.length - correctAnswers;
 }
 
-// Function to display the final result
-function displayResult() {
-
-}
-
-// Function to handle the click event on the next button
-function handleNextButtonClick() {
-
-}
-
 // Function to initialize the quiz
 function initializeQuiz() {
-
+    loadQuestions();
 }
 
 // Call the initializeQuiz function when the window loads
-window.onload = function () {
-    initializeQuiz();
-};
+window.onload = initializeQuiz;
+
