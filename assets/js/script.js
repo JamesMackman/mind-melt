@@ -125,10 +125,6 @@ function updateProgressBar() {
     }
 }
 
-function answerQuestion() {
-    updateProgressBar();
-}
-
 // Function to handle the click event on the next button
 function handleNextButtonClick() {
     if (selectedAnswer === null) {
@@ -141,10 +137,11 @@ function handleNextButtonClick() {
             correctAnswers++; // Increment the count of correct answers
         } else {
             alert(`Incorrect. The correct answer is: ${currentQuestion.answer}`);
-            incorrectAnswers = Math.max(0, incorrectAnswers + 1); // Increment the count of incorrect answers by 1, starting from 0
+            incorrectAnswers++; // Increment the count of incorrect answers by 1
         }
         progress++; // Increase the progress
         updateScoreAndProgress(); // Update the score and progress immediately
+        updateProgressBar(); // Update the progress bar
         loadQuestions(); // Load the next question
     }
 }
