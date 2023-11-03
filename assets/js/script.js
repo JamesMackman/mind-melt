@@ -63,6 +63,9 @@ let progressBarValue = 0;
 function loadQuestions() {
     if (progress >= questions.length) {
         // Handle the end of the quiz
+        const progressBar = document.getElementById("progressBar");
+        progressBarValue = progressBar.max; // Set the progress bar to full
+        progressBar.value = progressBarValue;
         alert(
             `Quiz complete! Your final score is ${score}. You answered ${correctAnswers} out of ${questions.length} questions correctly.`
         );
@@ -70,13 +73,13 @@ function loadQuestions() {
         progress = 0;
         score = 0;
         correctAnswers = 0;
-        return;
+        incorrectAnswers = 0;
+        progressBarValue = 0; // Reset the progress bar value
+        updateScoreAndProgress(); // Update the UI with reset values
+    } else {
+        const currentQuestion = questions[progress];
+        displayQuestion(currentQuestion);
     }
-
-    const currentQuestion = questions[progress];
-
-    // Call the function to display the question and answer options
-    displayQuestion(currentQuestion);
 }
 
 // Function to display questions and answer options
@@ -119,9 +122,11 @@ function displayQuestion(question) {
 // Function to update the progress bar
 function updateProgressBar() {
     const progressBar = document.getElementById("progressBar");
-    if (progressBarValue < 10) {
+    if (progressBarValue < progressBar.max) {
         progressBarValue += 1;
         progressBar.value = progressBarValue;
+    } else {
+        loadQuestions(); // Reset the quiz when the progress bar is filled
     }
 }
 
@@ -137,14 +142,32 @@ function handleNextButtonClick() {
             correctAnswers++; // Increment the count of correct answers
         } else {
             alert(`Incorrect. The correct answer is: ${currentQuestion.answer}`);
-            incorrectAnswers++; // Increment the count of incorrect answers by 1
+            incorrectAnswers++; // Increment the count of incorrect answers
         }
         progress++; // Increase the progress
         updateScoreAndProgress(); // Update the score and progress immediately
-        updateProgressBar(); // Update the progress bar
-        loadQuestions(); // Load the next question
+
+        if (progress >= questions.length) {
+            loadQuestions(); // Reset the quiz when the 10th question is answered
+        } else {
+            updateProgressBar(); // Update the progress bar if the quiz is not yet complete
+            loadQuestions(); // Load the next question
+        }
     }
 }
+
+// Function to handle the click event on the retry button
+function handleRetryButtonClick() {
+    const progressBar = document.getElementById("progressBar");
+    progressBarValue = 0; // Reset the progress bar value
+    updateProgressBar(); // Update the progress bar immediately
+    loadQuestions(); // Reset the quiz
+}
+
+// Call the handleRetryButtonClick function when the retry button is clicked
+const retryButton = document.getElementById("retryButton");
+retryButton.addEventListener("click", handleRetryButtonClick);
+
 
 // Function to update the score based on the user's answer
 function updateScore(isCorrect) {
