@@ -57,6 +57,7 @@ let correctAnswers = 0;
 let incorrectAnswers = 0;
 let selectedAnswer = null;
 let progress = 0;
+let progressBarValue = 0;
 
 // Function to load questions sequentially
 function loadQuestions() {
@@ -113,6 +114,19 @@ function displayQuestion(question) {
             }
         });
     });
+}
+
+// Function to update the progress bar
+function updateProgressBar() {
+    const progressBar = document.getElementById("progressBar");
+    if (progressBarValue < 10) {
+        progressBarValue += 1;
+        progressBar.value = progressBarValue;
+    }
+}
+
+function answerQuestion() {
+    updateProgressBar();
 }
 
 // Function to handle the click event on the next button
