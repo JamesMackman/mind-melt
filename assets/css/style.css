@@ -13,7 +13,8 @@ body {
 }
 
 header {
-    background: #333;
+    background: #2c3e50;
+    /* Dark blue background for the header */
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -50,13 +51,15 @@ progress[value]::-webkit-progress-bar {
 
 /* Customize the progress bar color and style */
 progress[value]::-webkit-progress-value {
-    background-color: #4caf50;
+    background-color: #3498db;
+    /* Light blue color for the progress bar */
     border-radius: 10px;
 }
 
 /* Question section */
 #question {
-    background: #fff;
+    background: #ecf0f1;
+    /* Light gray background for the question section */
     padding: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 5px;
@@ -70,43 +73,79 @@ progress[value]::-webkit-progress-value {
 }
 
 .answer-option {
-    border: 1px solid #000;
+    border: 1px solid #bdc3c7;
+    /* Light border color for the answer options */
     padding: 10px;
     text-align: center;
     line-height: 100px;
     box-sizing: border-box;
+    background-color: #ecf0f1;
+    /* Light gray background for the answer options */
 }
 
 /* Score section */
 #score {
-    background: #f9f9f9;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background: #34495e;
+    /* Dark blue background for the score section */
     padding: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+#scoreValueBox,
+#scoreLabelBox {
+    padding: 1rem;
+    border-radius: 5px;
+    background: #2c3e50;
+    /* Dark blue background for the score value and label boxes */
 }
 
 #scoreValue {
     font-size: 2rem;
-    color: #4caf50; /* Bright green color for the score value */
+    color: #2ecc71;
+    /* Green color for the score value */
     margin-bottom: 0.5rem;
 }
 
 #scoreLabel {
     font-size: 1.2rem;
-    color: #333; /* Darker color for the score label */
+    color: #bdc3c7;
+    /* Light gray color for the score label */
     margin-bottom: 0.5rem;
 }
 
-#correctAnswersLabel, #incorrectAnswersLabel {
+#answersBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#correctAnswersBox,
+#incorrectAnswersBox {
+    padding: 1rem;
+    border-radius: 5px;
+    background: #2980b9;
+    /* Darker blue background for the answers boxes */
+}
+
+#correctAnswersLabel,
+#incorrectAnswersLabel {
     font-size: 1rem;
-    color: #333; /* Darker color for the sub-labels */
+    color: #bdc3c7;
+    /* Light gray color for the sub-labels */
     margin-bottom: 0.2rem;
 }
 
-#correctAnswers, #incorrectAnswers {
+#correctAnswers,
+#incorrectAnswers {
     font-size: 1.5rem;
-    color: #ff5722; /* Bright orange color for the answers */
+    color: #e67e22;
+    /* Orange color for the answers */
     display: inline-block;
     margin-right: 10px;
 }
@@ -117,7 +156,8 @@ progress[value]::-webkit-progress-value {
     display: block;
     width: 100%;
     padding: 1rem;
-    background: #333;
+    background: #2c3e50;
+    /* Dark blue background for the buttons */
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -127,7 +167,8 @@ progress[value]::-webkit-progress-value {
 
 /* Footer */
 footer {
-    background: #333;
+    background: #2c3e50;
+    /* Dark blue background for the footer */
     color: #fff;
     text-align: center;
     padding: 1rem;
