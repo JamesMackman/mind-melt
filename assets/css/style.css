@@ -79,10 +79,36 @@ progress[value]::-webkit-progress-value {
 
 /* Score section */
 #score {
-    background: #fff;
+    background: #f9f9f9;
     padding: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#scoreValue {
+    font-size: 2rem;
+    color: #4caf50; /* Bright green color for the score value */
+    margin-bottom: 0.5rem;
+}
+
+#scoreLabel {
+    font-size: 1.2rem;
+    color: #333; /* Darker color for the score label */
+    margin-bottom: 0.5rem;
+}
+
+#correctAnswersLabel, #incorrectAnswersLabel {
+    font-size: 1rem;
+    color: #333; /* Darker color for the sub-labels */
+    margin-bottom: 0.2rem;
+}
+
+#correctAnswers, #incorrectAnswers {
+    font-size: 1.5rem;
+    color: #ff5722; /* Bright orange color for the answers */
+    display: inline-block;
+    margin-right: 10px;
 }
 
 /* Next button section and retry button */
