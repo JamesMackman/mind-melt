@@ -164,7 +164,8 @@ function handleRetryButtonClick() {
     incorrectAnswers = 0;
     progress = 0;
     progressBarValue = 0; // Reset the progress bar value
-    updateProgressBar(); // Update the progress bar immediately
+    const progressBar = document.getElementById("progressBar");
+    progressBar.value = 0; // Reset the progress bar value in the HTML
     updateScoreAndProgress(); // Update the UI with reset values
     loadQuestions(); // Reset the quiz
 }
