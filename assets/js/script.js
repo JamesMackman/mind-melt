@@ -158,9 +158,14 @@ function handleNextButtonClick() {
 
 // Function to handle the click event on the retry button
 function handleRetryButtonClick() {
-    const progressBar = document.getElementById("progressBar");
+    // Reset the variables and the progress bar
+    score = 0;
+    correctAnswers = 0;
+    incorrectAnswers = 0;
+    progress = 0;
     progressBarValue = 0; // Reset the progress bar value
     updateProgressBar(); // Update the progress bar immediately
+    updateScoreAndProgress(); // Update the UI with reset values
     loadQuestions(); // Reset the quiz
 }
 
