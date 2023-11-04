@@ -132,6 +132,11 @@ function updateProgressBar() {
 
 // Function to handle the click event on the next button
 function handleNextButtonClick() {
+    if (progress >= questions.length) {
+        alert("The quiz is already complete. Please press the 'Retry' button to start over.");
+        return;
+    }
+
     if (selectedAnswer === null) {
         alert("Please select an answer.");
     } else {
@@ -148,11 +153,12 @@ function handleNextButtonClick() {
         updateScoreAndProgress(); // Update the score and progress immediately
 
         if (progress >= questions.length) {
-            loadQuestions(); // Reset the quiz when the 10th question is answered
-        } else {
-            updateProgressBar(); // Update the progress bar if the quiz is not yet complete
-            loadQuestions(); // Load the next question
+            const nextButton = document.getElementById("nextButton");
+            nextButton.disabled = true; // Disable the next button
         }
+
+        updateProgressBar(); // Update the progress bar if the quiz is not yet complete
+        loadQuestions(); // Load the next question
     }
 }
 
