@@ -31,6 +31,26 @@ main {
     padding: 2rem;
 }
 
+/* Rules section */
+.rules {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 20px;
+    background: #2c3e50;
+    /* Dark blue background for the rules section */
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.quiz-rules {
+    list-style-type: none;
+    padding-left: 20px;
+    /* Adjusted padding to bring numbers closer to the rules */
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1rem;
+}
+
 /* Customize the progress bar appearance */
 progress {
     width: 100%;
