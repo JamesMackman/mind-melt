@@ -36,6 +36,17 @@ a {
     color: white;
 }
 
+/* Login-link */
+.login-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /* Rules section */
 .rules {
     font-size: 1.2rem;
