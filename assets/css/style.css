@@ -235,9 +235,17 @@ footer {
 
 /* Login page */
 /* Username display */
- #usernameDisplay {
-            position: fixed;
-            top: 10px;
-            right: 10px;
-            color: white;
-        }
+#usernameDisplay {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: white;
+}
+
+#topLeft {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    z-index: 1;
+}
