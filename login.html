@@ -53,22 +53,15 @@
       </p>
     </header>
     <main>
-        <h2>Sign In</h2>
-        <form id="loginForm">
-            <input type="text" id="username" placeholder="Username" required><br>
-            <input type="password" id="password" placeholder="Password" required><br>
-            <button type="submit">Login</button>
-        </form>
-        
-        <h2>Register</h2>
-        <form id="registerForm">
-            <input type="text" id="newUsername" placeholder="New Username" required><br>
-            <input type="password" id="newPassword" placeholder="New Password" required><br>
-            <button type="submit">Register</button>
-        </form>
+      <h2>User Registration</h2>
+      <form name="registrationForm" onsubmit="return validateForm()">
+        Username: <input type="text" name="username" /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
     </main>
     <footer>
       <p>&copy; 2023 Mind Melt Quiz Game</p>
     </footer>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

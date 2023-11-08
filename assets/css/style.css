@@ -232,3 +232,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Login page */
+/* Username display */
+ #usernameDisplay {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            color: white;
+        }

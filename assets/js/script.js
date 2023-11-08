@@ -213,3 +213,18 @@ function initializeQuiz() {
 }
 
 window.onload = initializeQuiz;
+
+function validateForm() {
+    var username = document.forms["registrationForm"]["username"].value;
+    if (username == null || username == "" || username.length < 3) {
+        alert("Username must be filled out and should be at least 3 characters long.");
+        return false;
+    }
+    // Add any other validation rules here if necessary
+
+    // If all validations pass, you can submit the form
+    alert("Username successfully created: " + username);
+    return true;
+}
+
+
