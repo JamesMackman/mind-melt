@@ -50,40 +50,6 @@ h2 {
     font-weight: bold;
 }
 
-/* Form styles */
-form {
-    max-width: 300px;
-    margin: 50px auto;
-    background: #ecf0f1;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-input[type="text"],
-input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    display: block;
-    border: 1px solid #bdc3c7;
-    border-radius: 5px;
-}
-
-button {
-    background-color: #2c3e50;
-    color: #fff;
-    padding: 10px 15px;
-    margin-top: 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100%;
-}
-
-button:hover {
-    background-color: #34495e;
-}
-
 /* Rules section */
 .rules {
     font-size: 1.2rem;
@@ -222,6 +188,10 @@ progress[value]::-webkit-progress-value {
     margin-top: 10px;
 }
 
+#retryButton {
+    margin-bottom: 50px;
+}
+
 /* Footer */
 footer {
     background: #2c3e50;
@@ -250,7 +220,13 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Form styles */
 form {
+    max-width: 300px;
+    margin: 50px auto;
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -264,13 +240,118 @@ form input[type="text"] {
 
 form input[type="submit"] {
     padding: 10px;
-    background-color: #333;
+    background: #2c3e50;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-form input[type="submit"]:hover {
-    background-color: #555;
+/* Media Queries for smaller screens */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    header .logo {
+        width: 40px;
+        margin-right: 5px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .quiz-rules {
+        font-size: 1rem;
+    }
+
+    main {
+        max-width: 95%;
+        padding: 1rem;
+    }
+
+    .login-link {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    form {
+        max-width: 100%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    form input[type="text"] {
+        padding: 8px;
+    }
+
+    form input[type="submit"] {
+        padding: 8px;
+    }
+
+    #answersBox {
+        grid-template-columns: 1fr;
+    }
+
+    #nextButton,
+    #retryButton {
+        padding: 0.8rem;
+        margin-top: 10px;
+    }
+
+    footer {
+        padding: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .login-link {
+        font-size: 16px;
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    form input[type="text"] {
+        padding: 6px;
+    }
+
+    form input[type="submit"] {
+        padding: 6px;
+    }
+
+    .quiz-rules {
+        font-size: 0.9rem;
+    }
+
+    #score {
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #answersBox {
+        grid-template-columns: 1fr;
+    }
+
+    #correctAnswers,
+    #incorrectAnswers {
+        font-size: 1.2rem;
+    }
+
+    #nextButton,
+    #retryButton {
+        padding: 0.6rem;
+        margin-top: 8px;
+    }
+
+    footer {
+        padding: 0.3rem;
+    }
 }
