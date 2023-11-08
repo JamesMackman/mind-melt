@@ -216,12 +216,24 @@ window.onload = initializeQuiz;
 
 function validateForm() {
     var username = document.forms["registrationForm"]["username"].value;
-    if (username == null || username == "" || username.length < 3) {
-        alert("Username must be filled out and should be at least 3 characters long.");
+    var usernameError = document.getElementById('username-error');
+
+    if (username.trim() === "") {
+        usernameError.innerText = "Username must be filled out.";
+        usernameError.style.display = 'block';
+        document.forms["registrationForm"]["username"].focus();
+        return false;
+    }
+
+    if (username.length < 3) {
+        usernameError.innerText = "Username should be at least 3 characters long.";
+        usernameError.style.display = 'block';
+        document.forms["registrationForm"]["username"].focus();
         return false;
     }
 
     // If all validations pass, you can submit the form
+    usernameError.style.display = 'none';
     alert("Username successfully created: " + username);
     return true;
 }

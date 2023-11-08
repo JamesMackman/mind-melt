@@ -53,12 +53,14 @@
       </p>
     </header>
     <main>
-      <h2>User Registration</h2>
-      <form name="registrationForm" onsubmit="return validateForm()">
-        Username: <input type="text" name="username" /><br /><br />
-        <input type="submit" value="Submit" />
-      </form>
-      <div id="topLeft"></div>
+        <h2>User Registration</h2>
+        <form name="registrationForm" onsubmit="return validateForm()">
+            Username: <input type="text" name="username" /><br /><br />
+            <div id="username-error" style="display: none; color: red;"></div>
+            <br />
+            <input type="submit" value="Submit" />
+        </form>
+        <div id="topLeft"></div>
     </main>
     <footer>
       <p>&copy; 2023 Mind Melt Quiz Game</p>
