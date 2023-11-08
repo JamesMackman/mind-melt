@@ -166,7 +166,14 @@ progress[value]::-webkit-progress-value {
     margin-bottom: 0.2rem;
 }
 
-#correctAnswers,
+#correctAnswers {
+    font-size: 1.5rem;
+    color: #2ecc71;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
 #incorrectAnswers {
     font-size: 1.5rem;
     color: #e67e22;
