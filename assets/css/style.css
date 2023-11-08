@@ -25,7 +25,7 @@ header .logo {
 }
 
 main {
-    max-width: 800px;
+    max-width: 90%;
     margin: 0 auto;
     padding: 2rem;
 }
@@ -47,7 +47,7 @@ h2 {
     margin-top: 20px;
     margin-right: 20px;
     font-weight: bold;
-    padding: 5px 10px;
+    padding: 10px 20px;
     border: 2px solid white;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
@@ -65,11 +65,11 @@ h2 {
     background: #2c3e50;
     padding: 1rem;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .quiz-rules {
     list-style-type: none;
-    margin-bottom: 20px;
     color: #fff;
     font-size: 1rem;
 }
@@ -78,6 +78,7 @@ h2 {
 progress {
     width: 100%;
     height: 20px;
+    margin-bottom: 20px;
 }
 
 /* Define the track appearance */
@@ -111,6 +112,7 @@ progress[value]::-webkit-progress-value {
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 .answer-option {
@@ -174,17 +176,9 @@ progress[value]::-webkit-progress-value {
     margin-bottom: 0.2rem;
 }
 
-#correctAnswers {
-    font-size: 1.5rem;
-    color: #2ecc71;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-
+#correctAnswers,
 #incorrectAnswers {
     font-size: 1.5rem;
-    color: #e67e22;
     display: inline-block;
     margin-right: 10px;
 }
@@ -200,7 +194,7 @@ progress[value]::-webkit-progress-value {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #retryButton {
@@ -237,7 +231,7 @@ main {
 
 /* Form styles */
 form {
-    max-width: 300px;
+    max-width: 90%;
     margin: 50px auto;
     background: #ecf0f1;
     padding: 20px;
@@ -266,7 +260,6 @@ form input[type="submit"] {
 @media only screen and (max-width: 768px) {
     header {
         padding: 0.5rem;
-        text-align: center;
     }
 
     header .logo {
@@ -276,6 +269,11 @@ form input[type="submit"] {
 
     h1 {
         font-size: 1.5rem;
+    }
+
+    .rules {
+        margin-top: 60px;
+        margin-bottom: 30px;
     }
 
     .quiz-rules {
@@ -288,13 +286,13 @@ form input[type="submit"] {
     }
 
     .login-link {
-        position: static;
-        margin-top: 20px;
+        position: absolute;
+        margin-top: 70px;
         text-align: center;
     }
 
     form {
-        max-width: 100%;
+        max-width: 95%;
         margin: 20px auto;
         padding: 15px;
     }
@@ -314,7 +312,7 @@ form input[type="submit"] {
     #nextButton,
     #retryButton {
         padding: 0.8rem;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     footer {
@@ -325,8 +323,9 @@ form input[type="submit"] {
 @media only screen and (max-width: 480px) {
     .login-link {
         font-size: 16px;
-        position: static;
-        margin-top: 20px;
+        position: absolute;
+        margin-top: 70px;
+        margin-right: 50px;
         text-align: center;
     }
 
@@ -363,7 +362,7 @@ form input[type="submit"] {
     #nextButton,
     #retryButton {
         padding: 0.6rem;
-        margin-top: 8px;
+        margin-top: 20px;
     }
 
     footer {
