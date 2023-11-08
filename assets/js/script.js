@@ -220,7 +220,6 @@ function validateForm() {
         alert("Username must be filled out and should be at least 3 characters long.");
         return false;
     }
-    // Add any other validation rules here if necessary
 
     // If all validations pass, you can submit the form
     alert("Username successfully created: " + username);
