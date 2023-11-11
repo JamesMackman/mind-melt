@@ -249,6 +249,8 @@ function initializeQuiz() {
 
 window.onload = initializeQuiz;
 
+// Login Page
+
 function validateForm() {
     var username = document.forms["registrationForm"]["username"].value;
     var usernameError = document.getElementById('username-error');
