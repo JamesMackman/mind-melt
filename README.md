@@ -12,11 +12,40 @@ In summary, Mind Melt is more than just a quiz project; it's a versatile tool th
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
+1. **Responsive Design:**
+   - The use of the viewport meta tag ensures a seamless experience across various screen sizes.
 
+2. **Font Awesome and Google Fonts Integration:**
+   - Includes Font Awesome icons and Google Fonts for a modern and stylish appearance.
+
+3. **Favicon Implementation:**
+   - Provides a favicon for brand recognition in browser tabs and bookmarks.
+
+4. **Navigation Links:**
+   - Home and login links in the header for easy navigation.
+
+5. **Quiz Rules Section:**
+   - Clearly defined rules presented in an ordered list for user guidance.
+
+6. **Progress Bar:**
+   - Visual representation of quiz progress with a progress bar.
+
+7. **Question and Answer Display:**
+   - Sections for displaying questions and answer options.
+
+8. **Scoreboard:**
+   - Displays the user's score, correct answers, and incorrect answers.
+
+9. **Next and Retry Buttons:**
+   - Interactive buttons for user navigation and quiz retry.
+
+10. **Footer:**
+    - Includes a copyright notice for ownership information.
+
+11. **Script Inclusion:**
+    - JavaScript functionality included at the end of the body for dynamic quiz interactions.
 
 ### Features Left to Implement
 
