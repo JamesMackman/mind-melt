@@ -135,7 +135,7 @@ function displayQuestion(question) {
                 optionElement.style.backgroundColor = "";
             } else {
                 const prevOption = answerContainer.querySelector(
-                    `[data - option= "${selectedAnswer}"]`
+                    `[data-option= "${selectedAnswer}"]`
                 );
                 if (prevOption) {
                     prevOption.style.backgroundColor = "";
