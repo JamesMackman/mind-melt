@@ -49,7 +49,31 @@ const questions = [
         options: ["Yuan", "Yen", "Dollar", "Euro"],
         answer: "Yen"
     }
-];
+    {
+        question: "What is the largest desert in the world?",
+        options: ["Sahara Desert", "Antarctica", "Arabian Desert", "Gobi Desert"],
+        answer: "Antarctica";
+    },
+    {
+        question: "In which year did the Titanic sink?",
+        options: ["1910", "1912", "1915", "1920"],
+        answer: "1912";
+    },
+    {
+        question: "Who discovered penicillin?",
+        options: ["Alexander Fleming", "Marie Curie", "Louis Pasteur", "Joseph Lister"],
+        answer: "Alexander Fleming";
+    },
+    {
+        question: "What is the largest bird in the world?",
+        options: ["Eagle", "Ostrich", "Penguin", "Albatross"],
+        answer: "Ostrich";
+    },
+    {
+        question: "Which river is the longest in the world?",
+        options: ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+        answer: "Nile River"
+    ];
 
 let score = 0;
 let correctAnswers = 0;
@@ -65,7 +89,7 @@ function loadQuestions() {
         progressBarValue = progressBar.max; // Set the progress bar to full
         progressBar.value = progressBarValue;
         alert(
-            `Quiz complete! Your final score is ${score}. You answered ${correctAnswers} out of ${questions.length} questions correctly.`
+            `Quiz complete! Your final score is ${score}.You answered ${correctAnswers} out of ${questions.length} questions correctly.`
         );
         progress = 0;
         score = 0;
@@ -100,7 +124,7 @@ function displayQuestion(question) {
                 optionElement.style.backgroundColor = "";
             } else {
                 const prevOption = answerContainer.querySelector(
-                    `[data-option="${selectedAnswer}"]`
+                    `[data - option= "${selectedAnswer}"]`
                 );
                 if (prevOption) {
                     prevOption.style.backgroundColor = "";
@@ -137,7 +161,7 @@ function handleNextButtonClick() {
             score++;
             correctAnswers++;
         } else {
-            alert(`Incorrect. The correct answer is: ${currentQuestion.answer}`);
+            alert(`Incorrect.The correct answer is: ${currentQuestion.answer}`);
             incorrectAnswers++;
         }
         progress++;
@@ -238,4 +262,4 @@ function validateForm() {
     return true;
 }
 
-
+;
