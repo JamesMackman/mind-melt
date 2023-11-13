@@ -264,6 +264,28 @@ form input[type="submit"] {
     cursor: pointer;
 }
 
+/* Home button */
+.home-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #2c3e50; /* Updated background color */
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth color change */
+
+}
+
+/* Add hover effect */
+.home-button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
 /* Media Queries for smaller screens */
 @media only screen and (max-width: 768px) {
     header {
