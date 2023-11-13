@@ -209,6 +209,13 @@ progress[value]::-webkit-progress-value {
     margin-bottom: 50px;
 }
 
+/* Add hover effect to both buttons */
+#nextButton:hover,
+#retryButton:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
 /* Footer */
 footer {
     background: #2c3e50;
@@ -283,7 +290,6 @@ form input[type="submit"]:hover {
     border: none; /* Remove border */
     border-radius: 5px; /* Add border-radius for rounded corners */
     transition: background-color 0.3s, color 0.3s; /* Add transition for smooth color change */
-
 }
 
 /* Add hover effect */
