@@ -150,6 +150,11 @@ progress[value]::-webkit-progress-value {
     margin-bottom: 0.5rem;
 }
 
+.score-out-of {
+    color: #999;
+    font-size: 1.5rem;
+}
+
 #scoreLabel {
     font-size: 1.2rem;
     color: #bdc3c7;

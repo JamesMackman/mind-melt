@@ -238,7 +238,7 @@ function updateScoreAndProgress() {
     const scoreElement = document.getElementById("scoreValue");
     const correctElement = document.getElementById("correctAnswers");
     const incorrectElement = document.getElementById("incorrectAnswers");
-    scoreElement.textContent = score;
+    scoreElement.innerHTML = `${score}<span class="score-out-of">/10</span>`;
     correctElement.textContent = correctAnswers;
     incorrectElement.textContent = incorrectAnswers;
     correctElement.classList.remove("score-correct");
@@ -255,7 +255,7 @@ function updateScoreAndProgress() {
 
 function initializeQuiz() {
     loadQuestions();
-    // Set initial colors
+    updateScoreAndProgress();
     const correctElement = document.getElementById("correctAnswers");
     const incorrectElement = document.getElementById("incorrectAnswers");
 
