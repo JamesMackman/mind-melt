@@ -183,6 +183,14 @@ progress[value]::-webkit-progress-value {
     margin-right: 10px;
 }
 
+.score-correct {
+    color: #2ecc71;;
+}
+
+.score-incorrect {
+    color: red;
+}
+
 /* Next button section and retry button */
 #nextButton,
 #retryButton {

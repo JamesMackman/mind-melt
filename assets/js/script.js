@@ -241,10 +241,26 @@ function updateScoreAndProgress() {
     scoreElement.textContent = score;
     correctElement.textContent = correctAnswers;
     incorrectElement.textContent = incorrectAnswers;
+    correctElement.classList.remove("score-correct");
+    incorrectElement.classList.remove("score-incorrect");
+
+    if (correctAnswers > 0) {
+        correctElement.classList.add("score-correct");
+    }
+
+    if (incorrectAnswers > 0) {
+        incorrectElement.classList.add("score-incorrect");
+    }
 }
 
 function initializeQuiz() {
     loadQuestions();
+    // Set initial colors
+    const correctElement = document.getElementById("correctAnswers");
+    const incorrectElement = document.getElementById("incorrectAnswers");
+
+    correctElement.classList.add("score-correct");
+    incorrectElement.classList.add("score-incorrect");
 }
 
 window.onload = initializeQuiz;
@@ -274,3 +290,4 @@ function validateForm() {
     alert("Username successfully created: " + username);
     return true;
 }
+
