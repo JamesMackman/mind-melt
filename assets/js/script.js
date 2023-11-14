@@ -202,7 +202,6 @@ function handleRetryButtonClick() {
     nextButton.disabled = false;
 
     const retryButton = document.getElementById("retryButton");
-    retryButton.style.backgroundColor = "red";
     loadQuestions();
 
     resetRetryButtonColor(); // Reset the retry button color
@@ -210,6 +209,12 @@ function handleRetryButtonClick() {
 
 const retryButton = document.getElementById("retryButton");
 retryButton.addEventListener("click", handleRetryButtonClick);
+
+function resetRetryButtonColor() {
+    const retryButton = document.getElementById("retryButton");
+    retryButton.style.backgroundColor = originalButtonColor; // Reset the background color of the retry button
+}
+
 
 function updateRetryButtonColor(changeColor) {
     const retryButton = document.getElementById("retryButton");
