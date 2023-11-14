@@ -24,6 +24,7 @@ const questions = [
         options: ["Italy", "Russia", "France", "Norway"],
         answer: "Norway"
     },
+
     {
         question: "What is the currency of Japan?",
         options: ["Yuan", "Yen", "Dollar", "Euro"],
