@@ -5,11 +5,6 @@ const questions = [
         answer: "Paris"
     },
     {
-        question: "Who wrote 'To Kill a Mockingbird'?",
-        options: ["Harper Lee", "F. Scott Fitzgerald", "William Faulkner", "Ernest Hemingway"],
-        answer: "Harper Lee"
-    },
-    {
         question: "What is the largest mammal in the world?",
         options: ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
         answer: "Blue Whale"
@@ -18,11 +13,6 @@ const questions = [
         question: "Which planet is known as the Red Planet?",
         options: ["Venus", "Mars", "Jupiter", "Mercury"],
         answer: "Mars"
-    },
-    {
-        question: "Who is known as the father of modern physics?",
-        options: ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
-        answer: "Albert Einstein"
     },
     {
         question: "Which country is famous for the maple leaf?",
@@ -35,24 +25,9 @@ const questions = [
         answer: "Norway"
     },
     {
-        question: "What is the largest ocean on Earth?",
-        options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-        answer: "Pacific Ocean"
-    },
-    {
-        question: "Who painted the Mona Lisa?",
-        options: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
-        answer: "Leonardo da Vinci"
-    },
-    {
         question: "What is the currency of Japan?",
         options: ["Yuan", "Yen", "Dollar", "Euro"],
         answer: "Yen"
-    },
-    {
-        question: "What is the largest desert in the world?",
-        options: ["Sahara Desert", "Antarctica", "Arabian Desert", "Gobi Desert"],
-        answer: "Antarctica"
     },
     {
         question: "In which year did the Titanic sink?",
@@ -60,19 +35,9 @@ const questions = [
         answer: "1912"
     },
     {
-        question: "Who discovered penicillin?",
-        options: ["Alexander Fleming", "Marie Curie", "Louis Pasteur", "Joseph Lister"],
-        answer: "Alexander Fleming"
-    },
-    {
         question: "What is the largest bird in the world?",
         options: ["Eagle", "Ostrich", "Penguin", "Albatross"],
         answer: "Ostrich"
-    },
-    {
-        question: "Which river is the longest in the world?",
-        options: ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
-        answer: "Nile River"
     },
     {
         question: "What is the currency of Brazil?",
