@@ -134,7 +134,7 @@ function handleNextButtonClick() {
     } else {
         const currentQuestion = questions[progress];
         if (selectedAnswer === currentQuestion.answer) {
-            alert("Correct!");
+            alert("Correct! Well done!");
             score++;
             correctAnswers++;
         } else {
