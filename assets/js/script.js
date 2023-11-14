@@ -238,20 +238,30 @@ function updateScoreAndProgress() {
     const scoreElement = document.getElementById("scoreValue");
     const correctElement = document.getElementById("correctAnswers");
     const incorrectElement = document.getElementById("incorrectAnswers");
+
+    // Store the existing classes
+    const correctClasses = correctElement.classList;
+    const incorrectClasses = incorrectElement.classList;
+
     scoreElement.innerHTML = `${score}<span class="score-out-of">/10</span>`;
+
+    // Remove existing classes
+    correctElement.className = "";
+    incorrectElement.className = "";
+
+    // Add stored classes
+    correctElement.classList.add(...correctClasses);
+    incorrectElement.classList.add(...incorrectClasses);
+
+    // Set colors explicitly
+    correctElement.style.color = "#2ecc71";
+    incorrectElement.style.color = "red";
+
+    // Update the text content
     correctElement.textContent = correctAnswers;
     incorrectElement.textContent = incorrectAnswers;
-    correctElement.classList.remove("score-correct");
-    incorrectElement.classList.remove("score-incorrect");
-
-    if (correctAnswers > 0) {
-        correctElement.classList.add("score-correct");
-    }
-
-    if (incorrectAnswers > 0) {
-        incorrectElement.classList.add("score-incorrect");
-    }
 }
+
 
 function initializeQuiz() {
     loadQuestions();
