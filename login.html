@@ -53,19 +53,66 @@
       </p>
     </header>
     <main>
-        <h2>User Registration</h2>
-        <form name="registrationForm" onsubmit="return validateForm()">
-            Username: <input type="text" name="username" /><br /><br />
-            <div id="username-error" style="display: none; color: red;"></div>
-            <br />
-            <input type="submit" value="Submit" />
-        </form>
-        <!-- Home button -->
-        <a href="index.html" class="home-button">Home</a>
+      <h2>User Registration</h2>
+      <form name="registrationForm" onsubmit="return validateForm()">
+        Username: <input type="text" name="username" /><br /><br />
+        <div id="username-error" style="display: none; color: red"></div>
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+      <!-- Home button -->
+      <a href="index.html" class="home-button">Home</a>
     </main>
     <footer>
-      <p>&copy; 2023 Mind Melt Quiz Game</p>
+      <p id="copyright-text">&copy; 2023 Mind Melt Quiz Game</p>
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-twitter-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our YouTube page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-youtube-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
+    <!-- Font Awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/3b20d96fa9.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
