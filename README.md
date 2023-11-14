@@ -53,7 +53,7 @@ Users visit the website with the primary goal of participating in quizzes, impro
 **In summary**, the responsive design feature of our project caters to the diverse needs of quiz-takers, offering a user-friendly and adaptable platform. This ensures that users can effortlessly engage with the quizzes, ultimately enhancing their learning and enjoyment.
 
 
-1. **Font Awesome and Google Fonts Integration:**
+2. **Font Awesome and Google Fonts Integration:**
    - Includes Font Awesome icons and Google Fonts for a modern and stylish appearance.
 
 2. **Favicon Implementation:**
