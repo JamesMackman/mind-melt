@@ -158,7 +158,21 @@ Utilizes Google Fonts to offer a diverse and readable typography selection, ensu
 
 Collectively, the Next and Retry Buttons feature embodies the website's commitment to user-friendly design, ensuring that participants can navigate the quiz effortlessly and tailor their learning journey according to their preferences and goals.
 
-###  10. Footer
+### 10. Login Page/Username Registration 
+
+- The Login Page/Username Registration feature serves as the gateway for users to access personalized quiz experiences. 
+  
+- The registration form on the login page invites users to create a unique username, providing a personalized touch to their quiz journey.
+  
+- This feature caters to individuals, including students and trivia enthusiasts, who want to tailor their quiz experiences.
+
+#### Simple and Intuitive Design
+
+- The registration form employs a straightforward and intuitive design, ensuring that users can easily enter their desired username without unnecessary complications.
+  
+- The simplicity of the process encourages user engagement and facilitates a quick entry into the quiz environment.
+
+###  11. Footer
 
 - The Footer feature serves as the proverbial finishing touch to the website, providing essential information and contributing to a cohesive and professional user experience.
 
@@ -174,7 +188,7 @@ Collectively, the Next and Retry Buttons feature embodies the website's commitme
 
 The Footer feature, with its copyright notice, not only fulfills legal obligations but also contributes to the website's professionalism, offering a polished and trustworthy conclusion to the user's interaction with the platform.
 
-###  11. Script Inclusion
+###  12. Script Inclusion
 
 - The Script Inclusion feature plays a crucial role in enhancing the website's interactivity and functionality by seamlessly integrating JavaScript into the user interface.
 
@@ -200,7 +214,33 @@ The Script Inclusion feature is instrumental in bringing the quiz to life, creat
 
 ## Features Left to Implement
 
-- Another feature idea
+### Sound Effects
+
+Introduces interactive sound effects for a more engaging quiz experience.
+
+- **Auditory Feedback:**
+Users receive audio cues for correct and incorrect answers, enhancing the interactive nature of the quiz.
+
+- **Enhanced Engagement:**
+Sound effects contribute to a dynamic and immersive atmosphere, making the quiz more enjoyable and interactive.
+
+- **Customizable Settings:**
+Users have the option to enable or disable sound effects based on their preferences.
+
+- **Varied Audio Palette:**
+A selection of carefully chosen sound effects adds a playful and entertaining element to the quiz.
+
+- **Compatible with Other Features:**
+Seamless integration with existing features, complementing the overall user experience.
+
+- **Accessible and Inclusive:**
+The feature is designed with accessibility in mind, ensuring a positive experience for users of all abilities.
+
+- **Modern and Interactive:**
+The addition of sound effects aligns with contemporary design trends, contributing to a modern and interactive quiz platform.
+
+- **User-Friendly Implementation:**
+The sound effects feature is implemented in a user-friendly manner, requiring minimal effort from users to enjoy the added dimension to their quiz experience.
 
 ## Testing 
 
