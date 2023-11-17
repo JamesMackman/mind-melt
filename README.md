@@ -214,9 +214,9 @@ In the development of this project, extensive testing has been conducted to ensu
 - **Objective:** Confirm the proper display of the favicon.
 - **Testing Details:** Ensured that the favicon appears in the browser tab, bookmark bar, and other relevant locations. Checked for clarity and consistency.
 
-3. **Navigation Links:**
-- Objective: Validate the functionality of navigation links.
-- Testing Details: Clicked on each navigation link to confirm smooth navigation between pages. Verified that the active link is appropriately highlighted.
+3. Navigation Links:
+- **Objective:** Validate the functionality of navigation links.
+- **Testing Details:** Clicked on each navigation link to confirm smooth navigation between pages. Verified that the active link is appropriately highlighted.
 
 4. Quiz Rules Section:
 - **Objective:** Ensure clarity and accuracy in conveying quiz rules.
