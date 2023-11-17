@@ -218,7 +218,7 @@ In the development of this project, extensive testing has been conducted to ensu
 - **Objective:** Validate the functionality of navigation links.
 - **Testing Details:** Clicked on each navigation link to confirm smooth navigation between pages. Verified that the active link is appropriately highlighted.
 
-4. Quiz Rules Section:
+4. Quiz Rules Section
 - **Objective:** Ensure clarity and accuracy in conveying quiz rules.
 - **Testing Details:** Checked that the quiz rules are clearly presented to users before starting the quiz. Verified that the content is easy to understand and formatted correctly.
 
@@ -242,37 +242,37 @@ In the development of this project, extensive testing has been conducted to ensu
 - **Objective:** Confirm proper formatting and content placement in the footer.
 - **Testing Details:** Checked that the footer content, including social links and copyright information, is correctly aligned and spaced. Verified consistent display across screen sizes.
 
-10. JavaScript Inclusion:
+10.  JavaScript Inclusion:
 - **Objective:** Ensure proper inclusion and execution of JavaScript.
 - **Testing Details:** Verified that JavaScript functions, such as quiz progression and button interactions, work as intended. Checked for any errors in the console.
 
-11. Quiz Functionality:
+11.  Quiz Functionality:
 - **Objective:** Verify the smooth functioning of the quiz, including question loading, answer selection, and score calculation.
 - **Testing Details:** Went through the entire quiz, answering questions and ensuring that the score updates correctly. Checked for any inconsistencies or unexpected behavior during the quiz.
 
-12. Responsive Design:
+12.  Responsive Design:
 - **Objective:** Confirm that the website maintains a user-friendly layout across different devices and screen sizes.
 - **Testing Details:** Accessed the website on various devices (desktop, tablet, and mobile) to ensure that the design is responsive. Verified that content adjusts appropriately to different screen sizes.
 
-13. Retry Button:
+13.  Retry Button:
 - **Objective:** Validate the functionality of the retry button, ensuring it resets the quiz for users to try again.
 - **Testing Details:** Clicked the retry button after completing the quiz to ensure it resets the quiz, including the score and progress bar. Checked for any issues related to multiple retries.
 
-14. Login Page:
+14.  Login Page:
 - **Objective:** Ensure the proper functioning and validation of the login page.
 - **Testing Details:** Entered different inputs (valid and invalid) into the login form to ensure correct validation messages. Verified that the form submission works as intended.
 
-#### Cross-Browser and Cross-Device Compatibility:
+#### Cross-Browser and Cross-Device Compatibility
 
 The website has been tested on multiple browsers, including Chrome, Firefox, Safari, and Edge. It consistently performs well across these platforms, maintaining functionality and visual appeal.
 
 On different screen sizes, the responsive design ensures that the content is presented optimally. From large desktop monitors to tablets and smartphones, the website scales appropriately, and all features remain accessible.
 
-#### Identified Issues:
+#### Identified Issues
 
 1. Color Consistency: While the overall design is visually appealing, there is an issue with the color consistency of certain elements, specifically the retry button on the quiz page. After retrying, the button does not revert to its initial color. This is a known issue and has been addressed.
 
-#### Conclusion:
+#### Conclusion
 
 The testing process has instilled confidence in the functionality and usability of the website. While certain issues have been identified, they are acknowledged and are part of the ongoing development process. The commitment to addressing these concerns ensures the continuous improvement of the website's performance and user experience.
 
@@ -280,16 +280,16 @@ The testing process has instilled confidence in the functionality and usability 
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamesmackman.github.io%2Fmind-melt%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjamesmackman.github.io%2Fmind-melt%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - JavaScript
   - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
     - The following metrics were returned:
-    - There are 11 functions in this file.
-    - Function with the largest signature takes 2 arguments, while the median is 0.
-    - Largest function has 10 statements in it, while the median is 3.
-    - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+    - There are 14 functions in this file.
+    - Function with the largest signature take 2 arguments, while the median is 0.
+    - Largest function has 19 statements in it, while the median is 6.
+    - The most complex function has a cyclomatic complexity value of 5 while the median is 1.5.
 
 ## Unfixed Bugs
 
