@@ -170,7 +170,7 @@ The Footer feature, with its copyright notice, not only fulfills legal obligatio
 
 The Script Inclusion feature is instrumental in bringing the quiz to life, creating a dynamic and user-friendly interface that aligns with modern web development standards.
 
-## Features Left to Implement
+## Features Left To Implement
 
 ### Sound Effects
 
@@ -204,61 +204,75 @@ Introduces interactive sound effects for a more engaging quiz experience.
 
 In the development of this project, extensive testing has been conducted to ensure that all features are functioning as intended and that the website provides a seamless experience for users to achieve their goals.
 
-### Feature testing 
+### Feature Testing
 
 1. Font Awesome and Google Fonts Integration:
+
 - **Objective:** Ensure seamless integration of Font Awesome icons and Google Fonts across the website.
 - **Testing Details:** Verified that all Font Awesome icons are displayed correctly, and Google Fonts are applied consistently throughout the site. Checked for any loading issues or visual discrepancies.
 
 2. Favicon Implementation:
+
 - **Objective:** Confirm the proper display of the favicon.
 - **Testing Details:** Ensured that the favicon appears in the browser tab, bookmark bar, and other relevant locations. Checked for clarity and consistency.
 
 3. Navigation Links:
+
 - **Objective:** Validate the functionality of navigation links.
 - **Testing Details:** Clicked on each navigation link to confirm smooth navigation between pages. Verified that the active link is appropriately highlighted.
 
 4. Quiz Rules Section
+
 - **Objective:** Ensure clarity and accuracy in conveying quiz rules.
 - **Testing Details:** Checked that the quiz rules are clearly presented to users before starting the quiz. Verified that the content is easy to understand and formatted correctly.
 
 5. Progress Bar:
+
 - **Objective:** Confirm the accuracy and responsiveness of the progress bar.
 - **Testing Details:** Progressed through the quiz and ensured that the progress bar accurately reflects the user's advancement. Verified responsiveness on different screen sizes.
 
 6. Question and Answer Display:
+
 - **Objective:** Validate the correct display of questions and answers.
 - **Testing Details:** Checked that questions are displayed appropriately, and answer options are presented clearly. Verified the proper functioning of the answer selection mechanism.
 
 7. Scoreboard:
+
 - **Objective:** Confirm the accuracy of the scoreboard.
 - **Testing Details:** Progressed through the quiz, answered questions correctly and incorrectly, and verified that the scoreboard updates accordingly. Checked for visual consistency.
 
 8. Next Button:
+
 - **Objective:** Validate the functionality of the next button.
 - **Testing Details:** Clicked the next button to progress through the quiz. Verified that it correctly advances to the next question and becomes disabled after reaching the end of the quiz.
 
 9. Footer:
+
 - **Objective:** Confirm proper formatting and content placement in the footer.
 - **Testing Details:** Checked that the footer content, including social links and copyright information, is correctly aligned and spaced. Verified consistent display across screen sizes.
 
-10.  JavaScript Inclusion:
+10. JavaScript Inclusion:
+
 - **Objective:** Ensure proper inclusion and execution of JavaScript.
 - **Testing Details:** Verified that JavaScript functions, such as quiz progression and button interactions, work as intended. Checked for any errors in the console.
 
-11.  Quiz Functionality:
+11. Quiz Functionality:
+
 - **Objective:** Verify the smooth functioning of the quiz, including question loading, answer selection, and score calculation.
 - **Testing Details:** Went through the entire quiz, answering questions and ensuring that the score updates correctly. Checked for any inconsistencies or unexpected behavior during the quiz.
 
-12.  Responsive Design:
+12. Responsive Design:
+
 - **Objective:** Confirm that the website maintains a user-friendly layout across different devices and screen sizes.
 - **Testing Details:** Accessed the website on various devices (desktop, tablet, and mobile) to ensure that the design is responsive. Verified that content adjusts appropriately to different screen sizes.
 
-13.  Retry Button:
+13. Retry Button:
+
 - **Objective:** Validate the functionality of the retry button, ensuring it resets the quiz for users to try again.
 - **Testing Details:** Clicked the retry button after completing the quiz to ensure it resets the quiz, including the score and progress bar. Checked for any issues related to multiple retries.
 
-14.  Login Page:
+14. Login Page:
+
 - **Objective:** Ensure the proper functioning and validation of the login page.
 - **Testing Details:** Entered different inputs (valid and invalid) into the login form to ensure correct validation messages. Verified that the form submission works as intended.
 
@@ -275,7 +289,6 @@ On different screen sizes, the responsive design ensures that the content is pre
 #### Conclusion
 
 The testing process has instilled confidence in the functionality and usability of the website. While certain issues have been identified, they are acknowledged and are part of the ongoing development process. The commitment to addressing these concerns ensures the continuous improvement of the website's performance and user experience.
-
 
 ### Validator Testing
 
@@ -319,43 +332,53 @@ These unfixed bugs and limitations highlight areas where further attention and i
 ## Deployment Process
 
 1. **Version Control with Git:**
+
 - **Repository Setup:** Created a Git repository for the project.
 - **Commits:** Made frequent, descriptive commits throughout the development process to track changes effectively.
 
 2. **GitHub Repository:**
+
 - **Repository Creation:** Established a remote repository on GitHub to host the project.
 - **Linking Repository with external coding software:** Connected the local Git repository with a workspace from **CodeAnywhere**.
 
 3. **Deployment Environment:**
+
 - **GitHub Pages:** Chose GitHub Pages for hosting the static website due to its simplicity and integration with the repository.
 
 4. **Deployment Steps:**
+
 - **Build Process:** Ensured all necessary files (HTML, CSS, JavaScript) are ready for deployment.
 - **Branch Selection:** Used the main branch as the source for GitHub Pages.
 - **Settings Configuration:** Configured GitHub Pages settings to deploy from the main branch.
 - **Deployment Confirmation:** Verified successful deployment by checking the provided GitHub Pages URL.
 
 5. **Final Checks:**
+
 - **Cross-Browser Compatibility:** Ensured the deployed site functions correctly on different browsers.
 - **Responsiveness:** Checked responsiveness on various devices to confirm a seamless user experience.
 
 6. **Documentation Update:**
+
 - **Readme:** Updated the project's README file to include deployment information, project overview, and any additional details for users or contributors.
 
 7. **Monitoring:**
+
 - **Monitoring Tools:** Considered tools like Google Analytics for monitoring site traffic.
 
 8. **Testing After Deployment:**
+
 - **Post-Deployment Testing:** Checked the live site for any issues post-deployment.
 - **Browser Compatibility:** Verified cross-browser compatibility on the deployed version.
 
 9. **Feedback Collection:**
+
 - **User Feedback:** Encouraged users to provide feedback on the deployed site for improvements.
 
 ### Summary:
+
 The deployment process involved careful planning, version control, and thorough testing to ensure a successful and reliable release of the project. Regular updates and monitoring are part of the ongoing maintenance plan to address any issues promptly.
 
-The live link can be found here - <https://jamesmackman.github.io/mind-melt/>
+The live link can be found [here](https://jamesmackman.github.io/mind-melt/).
 
 ## Credits
 
@@ -364,7 +387,7 @@ The live link can be found here - <https://jamesmackman.github.io/mind-melt/>
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/watch?v=In0nB0ABaUk).
 - The design for the footer was taken from the Code Institute 'Love Running' walkthrough project.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
-- The score section idea and javascript code were taken from the Code Institute 'Love-Maths' walkthrough project. 
+- The score section idea and javascript code were taken from the Code Institute 'Love-Maths' walkthrough project.
 
 ### Media
 
