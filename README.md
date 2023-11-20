@@ -303,6 +303,8 @@ The testing process has instilled confidence in the functionality and usability 
     - Function with the largest signature take 2 arguments, while the median is 0.
     - Largest function has 19 statements in it, while the median is 6.
     - The most complex function has a cyclomatic complexity value of 5 while the median is 1.5.
+- Accessibility 
+    - I confirmed that the colorsand font chosen are easy to read and accessible by running it through lighthouse in dev tools. 
 
 ## Unfixed Bugs
 
