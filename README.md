@@ -148,6 +148,15 @@ Collectively, the Next and Retry Buttons feature embodies the website's commitme
 
 The Footer feature, with its copyright notice, not only fulfills legal obligations but also contributes to the website's professionalism, offering a polished and trustworthy conclusion to the user's interaction with the platform.
 
+#### Social media icons
+
+- **Enhancing Connectivity:** The inclusion of social media icons in the footer establishes a bridge between the website and its audience by providing links to various social platforms.
+Each icon serves as a gateway, inviting users to explore and engage with the website's presence on popular social networks.
+- **Strengthening Online Presence:** Social media icons act as visual cues, guiding users to connect with the website beyond its primary domain.
+By linking to social platforms such as Facebook, Twitter, YouTube, and Instagram, the website expands its reach and visibility in the digital space.
+
+The inclusion of social media icons in the footer serves as a dynamic element, facilitating user interaction and community building. It not only expands the website's reach but also creates a multifaceted online presence that extends beyond the boundaries of the main platform.
+
 ### 12. Script Inclusion
 
 - The Script Inclusion feature plays a crucial role in enhancing the website's interactivity and functionality by seamlessly integrating JavaScript into the user interface.
@@ -303,8 +312,8 @@ The testing process has instilled confidence in the functionality and usability 
     - Function with the largest signature take 2 arguments, while the median is 0.
     - Largest function has 19 statements in it, while the median is 6.
     - The most complex function has a cyclomatic complexity value of 5 while the median is 1.5.
-- Accessibility 
-    - I confirmed that the colorsand font chosen are easy to read and accessible by running it through lighthouse in dev tools. 
+- Accessibility
+  - I confirmed that the colorsand font chosen are easy to read and accessible by running it through lighthouse in dev tools.
 
 ## Unfixed Bugs
 
@@ -376,7 +385,7 @@ These unfixed bugs and limitations highlight areas where further attention and i
 
 - **User Feedback:** Encouraged users to provide feedback on the deployed site for improvements.
 
-### Summary:
+### Summary
 
 The deployment process involved careful planning, version control, and thorough testing to ensure a successful and reliable release of the project. Regular updates and monitoring are part of the ongoing maintenance plan to address any issues promptly.
 
@@ -391,6 +400,6 @@ The live link can be found [here](https://jamesmackman.github.io/mind-melt/).
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 - The score section idea and some of the javascript code were taken from the Code Institute 'Love-Maths' walkthrough project.
 
-### Media 
+### Media
 
-- The image used as the logo in the header section was taken from google images. 
+- The image used as the logo in the header section was taken from google images.
