@@ -389,4 +389,8 @@ The live link can be found [here](https://jamesmackman.github.io/mind-melt/).
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/watch?v=In0nB0ABaUk).
 - The design for the footer was taken from the Code Institute 'Love Running' walkthrough project.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
-- The score section idea and javascript code were taken from the Code Institute 'Love-Maths' walkthrough project.
+- The score section idea and some of the javascript code were taken from the Code Institute 'Love-Maths' walkthrough project.
+
+### Media 
+
+- The image used as the logo in the header section was taken from google images. 
