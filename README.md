@@ -64,9 +64,9 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 ### 4. Navigation Links
 
 - Tailored for individuals who prioritize intuitive navigation while exploring the quiz platform. This includes students, quiz enthusiasts, and anyone seeking a seamless user experience.
-- Prominently features Home and Login links in the header, strategically placed for easy access and quick navigation.
+- Prominently features Home (the logo) and Login links in the header, strategically placed for easy access and quick navigation.
 - Home link provides a direct route to the main page of the website, allowing users to start their quiz experience or return to the homepage effortlessly.
-- Login link offers a convenient entry point for new users to create an account or for existing users to log in, emphasizing accessibility and user-friendly design.
+- Login link offers a convenient entry point for new users to create a username emphasizing accessibility and user-friendly design.
 - The inclusion of these navigation links reflects a commitment to user convenience, ensuring that users can effortlessly navigate between different sections of the website, enhancing overall usability and satisfaction.
 
 ### 5. Quiz Rules Section
@@ -388,8 +388,3 @@ The live link can be found [here](https://jamesmackman.github.io/mind-melt/).
 - The design for the footer was taken from the Code Institute 'Love Running' walkthrough project.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 - The score section idea and javascript code were taken from the Code Institute 'Love-Maths' walkthrough project.
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site.
-- The images used for the gallery page were taken from this other open source site.
