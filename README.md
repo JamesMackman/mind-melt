@@ -19,7 +19,6 @@ In summary, Mind Melt is more than just a quiz project; it's a versatile tool th
 #### Adaptive Layout
 
 - The website layout intelligently adapts to different screen sizes, including desktops, tablets, and mobile devices, providing a consistent and visually appealing presentation.
-
 - Responsive design guarantees that users can access and enjoy the quiz content seamlessly, regardless of the device they use.
 
 #### Flexible Components
@@ -30,13 +29,11 @@ In summary, Mind Melt is more than just a quiz project; it's a versatile tool th
 #### Improved Accessibility
 
 - The responsive approach enhances accessibility, accommodating users with diverse devices and ensuring an inclusive experience for individuals with varying accessibility requirements.
-
 - Whether on a large desktop monitor or a smaller smartphone screen, the website remains user-friendly and visually appealing.
 
 #### Enhanced User Engagement
 
 - A responsive design contributes to a positive user experience, reducing the need for horizontal scrolling or zooming in on smaller screens.
-
 - By optimizing the layout for different devices, the website promotes increased user engagement and satisfaction.
 
 #### Future-Proofing
@@ -50,8 +47,7 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 
 - Targets individuals interested in taking quizzes to test their knowledge on various topics. This includes students, trivia enthusiasts, or anyone seeking an engaging and educational experience.
 - Enhances the visual appeal with Font Awesome icons, providing a modern and stylish appearance that caters to a contemporary design sense.
-  Utilizes Google Fonts to offer a diverse and readable typography selection, ensuring a visually pleasing and accessible experience for users.
-
+- Utilizes Google Fonts to offer a diverse and readable typography selection, ensuring a visually pleasing and accessible experience for users.
 - The integration of these design elements aims to create a user-friendly and aesthetically pleasing environment, encouraging users to participate in quizzes with a sense of style and modernity.
 
 ### 3. Favicon Implementation
@@ -313,7 +309,7 @@ The testing process has instilled confidence in the functionality and usability 
     - Largest function has 19 statements in it, while the median is 6.
     - The most complex function has a cyclomatic complexity value of 5 while the median is 1.5.
 - Accessibility
-  - I confirmed that the colorsand font chosen are easy to read and accessible by running it through lighthouse in dev tools.
+  - I confirmed that the colors and font chosen are easy to read and accessible by running it through lighthouse in dev tools.
 
 ## Unfixed Bugs
 
