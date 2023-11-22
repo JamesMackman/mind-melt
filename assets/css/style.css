@@ -352,8 +352,7 @@ form input[type="submit"]:hover {
     }
 
     .rules {
-        margin-top: 60px;
-        margin-bottom: 30px;
+        margin-top: 20px;
     }
 
     .quiz-rules {
@@ -441,9 +440,12 @@ form input[type="submit"]:hover {
         margin-top: 70px;
     }
 
+    .rules {
+        margin-top: 55px;
+    }
+
     .quiz-rules {
         font-size: 0.9rem;
-        margin-top: -25px;
     }
 
     #score {
