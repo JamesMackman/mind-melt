@@ -189,7 +189,6 @@ progress[value]::-webkit-progress-value {
 
 .score-correct {
     color: #2ecc71;
-    ;
 }
 
 .score-incorrect {
@@ -274,6 +273,10 @@ main {
     margin-top: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+    /* Allow vertical scrolling if content overflows */
+    max-height: 100vh;
+    /* Set a maximum height to trigger scrolling */
 }
 
 /* Form styles */
@@ -307,6 +310,15 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #3498db;
     color: #fff;
+}
+
+#username-error {
+    display: none;
+    color: red;
+    margin-top: 20px;
+    /* Adjust margin to provide space for the error message */
+    margin-bottom: 20px;
+    /* Adjust margin to provide space at the bottom */
 }
 
 /* Home button */
@@ -426,6 +438,8 @@ form input[type="submit"]:hover {
     /* Home page */
     main {
         padding: 0.5rem;
+        overflow-y: scroll;
+        max-height: calc(100vh - 100px);
     }
 
     .login-link {
@@ -469,6 +483,12 @@ form input[type="submit"]:hover {
     }
 
     /* Login page */
+
+    #scroll {
+        overflow-y: scroll;
+        max-height: 250px;
+    }
+
     form input[type="text"] {
         padding: 6px;
         margin-bottom: -70px;
@@ -476,11 +496,8 @@ form input[type="submit"]:hover {
 
     form input[type="submit"] {
         padding: 8px;
-        /* Adjust padding for smaller screens */
         font-size: 1rem;
-        /* Adjust font size for smaller screens */
-        margin-top: 10px;
-        /* Adjust the margin to move the button up */
+        margin-top: -10px;
     }
 
     .home-button {
