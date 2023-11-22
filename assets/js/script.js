@@ -5,9 +5,9 @@ const questions = [
         answer: "Paris"
     },
     {
-        question: "What is the largest mammal in the world?",
-        options: ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
-        answer: "Blue Whale"
+        question: "In what year did the United States declare its independence?",
+        options: ["1776", "1789", "1801", "1765"],
+        answer: "1776"
     },
     {
         question: "Which planet is known as the Red Planet?",
@@ -15,16 +15,15 @@ const questions = [
         answer: "Mars"
     },
     {
-        question: "Which country is famous for the maple leaf?",
-        options: ["United States", "Canada", "Russia", "Australia"],
-        answer: "Canada"
+        question: "Which country is known as the Land of the Rising Sun?",
+        options: ["China", "Japan", "Argentina", "Vietnam"],
+        answer: "Japan"
     },
     {
         question: "What country has the largest underground tunnel?",
         options: ["Italy", "Russia", "France", "Norway"],
         answer: "Norway"
     },
-
     {
         question: "What is the currency of Japan?",
         options: ["Yuan", "Yen", "Dollar", "Euro"],
@@ -49,7 +48,7 @@ const questions = [
         question: "Which element has the chemical symbol 'O'?",
         options: ["Oxygen", "Gold", "Silver", "Iron"],
         answer: "Oxygen"
-    }
+    },
 ];
 
 let score = 0;
