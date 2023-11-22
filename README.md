@@ -10,6 +10,9 @@ The user-friendly interface and intuitive design of Mind Melt make it accessible
 
 In summary, Mind Melt is more than just a quiz project; it's a versatile tool that caters to the needs of trivia enthusiasts and educators alike. By offering an interactive and enjoyable experience, it becomes a bridge between entertainment and education, making the pursuit of knowledge both engaging and rewarding for a wide and diverse audience.
 
+![Responsive Mockup](media/mind_melt_mockup.png)
+
+
 ## Features
 
 ### 1. Responsive Design
@@ -57,6 +60,8 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 - Aids in creating a memorable and branded user experience, reinforcing the identity of the quiz platform and making it easily identifiable among other websites.
 - The implementation of a favicon serves not only a practical purpose but also contributes to the overall branding strategy, fostering a sense of familiarity and trust among users.
 
+![Favicon](media/mind_melt_favicon.png)
+
 ### 4. Navigation Links
 
 - Tailored for individuals who prioritize intuitive navigation while exploring the quiz platform. This includes students, quiz enthusiasts, and anyone seeking a seamless user experience.
@@ -65,6 +70,8 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 - Login link offers a convenient entry point for new users to create a username emphasizing accessibility and user-friendly design.
 - The inclusion of these navigation links reflects a commitment to user convenience, ensuring that users can effortlessly navigate between different sections of the website, enhancing overall usability and satisfaction.
 
+![Navigation Links](media/mind_melt_navlinks.png)
+
 ### 5. Quiz Rules Section
 
 - Tailored for individuals keen on understanding the guidelines and structure of the quiz, catering to students, quiz enthusiasts, and those seeking a clear framework for the quiz experience.
@@ -72,6 +79,8 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 - The inclusion of a dedicated section for quiz rules reflects a commitment to transparency and user-friendly communication, providing participants with essential information upfront.
 - Each rule is thoughtfully presented, contributing to a positive user experience by eliminating ambiguity and fostering a sense of confidence among participants.
 - By offering a comprehensive overview of the rules, this section sets the expectations for users, promoting fairness and understanding throughout their engagement with the quiz platform.
+
+![Quiz rules section](media/mind_melt_quizrules.png)
 
 ### 6. Progress Bar
 
@@ -82,6 +91,8 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 - The inclusion of a progress bar aligns with modern design standards, contributing to the website's contemporary and user-centric aesthetic.
 - This feature reflects a commitment to user engagement, making the quiz-taking experience not only informative but also visually stimulating and enjoyable.
 
+![Progress bar](media/mind_melt_progressbar.png)
+
 ### 7. Question and Answer Display
 
 - Catering to individuals who seek an organized and easily navigable interface during their quiz experience, this feature is tailored for students, trivia enthusiasts, and anyone looking for a seamless quiz-taking journey.
@@ -91,6 +102,8 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 - The use of defined sections for questions and answer options aligns with best practices in user interface design, enhancing the accessibility and overall usability of the quiz.
 - This feature contributes to the website's commitment to delivering quizzes that are not only challenging but also presented in a manner that promotes user comprehension and enjoyment.
 
+![Question and answer display](media/mind_melt_questionanswerdisplay.png)
+
 ### 8. Scoreboard
 
 - Tailored for individuals who aim to track their progress and achievements during the quiz, the Scoreboard feature enhances the overall quiz-taking experience for students, trivia enthusiasts, and knowledge seekers.
@@ -99,6 +112,8 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 - Fosters a competitive yet supportive environment, enabling users to set personal improvement goals and challenging them to enhance their knowledge with each quiz attempt.
 - The inclusion of specific metrics, such as correct and incorrect answers, adds granularity to the feedback, aiding users in identifying areas for improvement and reinforcing the educational aspect of the quiz.
 - The Scoreboard feature aligns with the website's commitment to transparency and user engagement, providing participants with valuable insights into their quiz performance in a concise and accessible manner.
+
+![Scoreboard](media/mind_melt_scoreboard.png)
 
 ### 9. Next and Retry Buttons
 
@@ -120,6 +135,8 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 
 Collectively, the Next and Retry Buttons feature embodies the website's commitment to user-friendly design, ensuring that participants can navigate the quiz effortlessly and tailor their learning journey according to their preferences and goals.
 
+![Next and retry buttons](media/mind_melt_nextretrybuttons.png)
+
 ### 10. Login Page/Username Registration
 
 - The Login Page/Username Registration feature serves as the gateway for users to access personalized quiz experiences.
@@ -130,6 +147,8 @@ Collectively, the Next and Retry Buttons feature embodies the website's commitme
 
 - The registration form employs a straightforward and intuitive design, ensuring that users can easily enter their desired username without unnecessary complications.
 - The simplicity of the process encourages user engagement and facilitates a quick entry into the quiz environment.
+
+![Login Page/Username Registration](media/mind_melt_loginpage.png)
 
 ### 11. Footer
 
@@ -152,6 +171,8 @@ Each icon serves as a gateway, inviting users to explore and engage with the web
 By linking to social platforms such as Facebook, Twitter, YouTube, and Instagram, the website expands its reach and visibility in the digital space.
 
 The inclusion of social media icons in the footer serves as a dynamic element, facilitating user interaction and community building. It not only expands the website's reach but also creates a multifaceted online presence that extends beyond the boundaries of the main platform.
+
+![Footer](media/mind_melt_footer.png)
 
 ### 12. Script Inclusion
 
