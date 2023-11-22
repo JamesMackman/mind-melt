@@ -332,6 +332,8 @@ The testing process has instilled confidence in the functionality and usability 
 - Accessibility
   - I confirmed that the colors and font chosen are easy to read and accessible by running it through lighthouse in dev tools.
 
+![Lighthouse score](media/mind_melt_accessibility.png)
+
 ## Unfixed Bugs
 
 While developing this project using JavaScript, HTML, and CSS, we have encountered a few challenges and identified certain shortcomings in the frameworks and technologies used. Below are some of the unfixed bugs and limitations:
