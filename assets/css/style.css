@@ -443,6 +443,7 @@ form input[type="submit"]:hover {
 
     .quiz-rules {
         font-size: 0.9rem;
+        margin-top: -25px;
     }
 
     #score {
