@@ -10,7 +10,7 @@ The user-friendly interface and intuitive design of Mind Melt make it accessible
 
 In summary, Mind Melt is more than just a quiz project; it's a versatile tool that caters to the needs of trivia enthusiasts and educators alike. By offering an interactive and enjoyable experience, it becomes a bridge between entertainment and education, making the pursuit of knowledge both engaging and rewarding for a wide and diverse audience.
 
-![Responsive Mockup](media/mind_melt_mockup.png)
+![Responsive Mockup](assets/media/mind_melt_mockup.png)
 
 ## Features
 
@@ -59,7 +59,7 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 - Aids in creating a memorable and branded user experience, reinforcing the identity of the quiz platform and making it easily identifiable among other websites.
 - The implementation of a favicon serves not only a practical purpose but also contributes to the overall branding strategy, fostering a sense of familiarity and trust among users.
 
-![Favicon](media/mind_melt_favicon.png)
+![Favicon](assets/media/mind_melt_favicon.png)
 
 ### 4. Navigation Links
 
@@ -69,7 +69,7 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 - Login link offers a convenient entry point for new users to create a username emphasizing accessibility and user-friendly design.
 - The inclusion of these navigation links reflects a commitment to user convenience, ensuring that users can effortlessly navigate between different sections of the website, enhancing overall usability and satisfaction.
 
-![Navigation Links](media/mind_melt_navlinks.png)
+![Navigation Links](assets/media/mind_melt_navlinks.png)
 
 ### 5. Quiz Rules Section
 
@@ -79,7 +79,7 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 - Each rule is thoughtfully presented, contributing to a positive user experience by eliminating ambiguity and fostering a sense of confidence among participants.
 - By offering a comprehensive overview of the rules, this section sets the expectations for users, promoting fairness and understanding throughout their engagement with the quiz platform.
 
-![Quiz rules section](media/mind_melt_quizrules.png)
+![Quiz rules section](assets/media/mind_melt_quizrules.png)
 
 ### 6. Progress Bar
 
@@ -90,7 +90,7 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 - The inclusion of a progress bar aligns with modern design standards, contributing to the website's contemporary and user-centric aesthetic.
 - This feature reflects a commitment to user engagement, making the quiz-taking experience not only informative but also visually stimulating and enjoyable.
 
-![Progress bar](media/mind_melt_progressbar.png)
+![Progress bar](assets/media/mind_melt_progressbar.png)
 
 ### 7. Question and Answer Display
 
@@ -101,7 +101,7 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 - The use of defined sections for questions and answer options aligns with best practices in user interface design, enhancing the accessibility and overall usability of the quiz.
 - This feature contributes to the website's commitment to delivering quizzes that are not only challenging but also presented in a manner that promotes user comprehension and enjoyment.
 
-![Question and answer display](media/mind_melt_questionanswerdisplay.png)
+![Question and answer display](assets/media/mind_melt_questionanswerdisplay.png)
 
 ### 8. Scoreboard
 
@@ -112,7 +112,7 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 - The inclusion of specific metrics, such as correct and incorrect answers, adds granularity to the feedback, aiding users in identifying areas for improvement and reinforcing the educational aspect of the quiz.
 - The Scoreboard feature aligns with the website's commitment to transparency and user engagement, providing participants with valuable insights into their quiz performance in a concise and accessible manner.
 
-![Scoreboard](media/mind_melt_scoreboard.png)
+![Scoreboard](assets/media/mind_melt_scoreboard.png)
 
 ### 9. Next and Retry Buttons
 
@@ -134,7 +134,7 @@ The Responsive Design feature is a fundamental aspect of the website, prioritizi
 
 Collectively, the Next and Retry Buttons feature embodies the website's commitment to user-friendly design, ensuring that participants can navigate the quiz effortlessly and tailor their learning journey according to their preferences and goals.
 
-![Next and retry buttons](media/mind_melt_nextretrybuttons.png)
+![Next and retry buttons](assets/media/mind_melt_nextretrybuttons.png)
 
 ### 10. Login Page/Username Registration
 
@@ -147,7 +147,7 @@ Collectively, the Next and Retry Buttons feature embodies the website's commitme
 - The registration form employs a straightforward and intuitive design, ensuring that users can easily enter their desired username without unnecessary complications.
 - The simplicity of the process encourages user engagement and facilitates a quick entry into the quiz environment.
 
-![Login Page/Username Registration](media/mind_melt_loginpage.png)
+![Login Page/Username Registration](assets/media/mind_melt_loginpage.png)
 
 ### 11. Footer
 
@@ -171,7 +171,7 @@ The Footer feature, with its copyright notice, not only fulfills legal obligatio
 
 The inclusion of social media icons in the footer serves as a dynamic element, facilitating user interaction and community building. It not only expands the website's reach but also creates a multifaceted online presence that extends beyond the boundaries of the main platform.
 
-![Footer](media/mind_melt_footer.png)
+![Footer](assets/media/mind_melt_footer.png)
 
 ### 12. Script Inclusion
 
@@ -350,7 +350,7 @@ The testing process has instilled confidence in the functionality and usability 
 - Accessibility
   - I confirmed that the colors and font chosen are easy to read and accessible by running it through lighthouse in dev tools.
 
-![Lighthouse score](media/mind_melt_accessibility.png)
+![Lighthouse score](assets/media/mind_melt_accessibility.png)
 
 ## Unfixed Bugs
 
