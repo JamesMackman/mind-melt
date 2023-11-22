@@ -423,6 +423,12 @@ form input[type="submit"]:hover {
 
 
 @media only screen and (max-width: 480px) {
+
+    /* Home page */
+    main {
+        padding: 0.5rem;
+    }
+
     .login-link {
         font-size: 16px;
         position: absolute;
@@ -433,24 +439,6 @@ form input[type="submit"]:hover {
 
     .opening-message {
         margin-top: 70px;
-    }
-
-    main {
-        padding: 0.5rem;
-    }
-
-    form input[type="text"] {
-        padding: 6px;
-        margin-bottom: -70px;
-    }
-
-    form input[type="submit"] {
-        padding: 8px;
-        /* Adjust padding for smaller screens */
-        font-size: 1rem;
-        /* Adjust font size for smaller screens */
-        margin-top: 10px;
-        /* Adjust the margin to move the button up */
     }
 
     .quiz-rules {
@@ -477,11 +465,27 @@ form input[type="submit"]:hover {
         margin-top: 20px;
     }
 
-    footer {
-        padding: 0.3rem;
+    /* Login page */
+    form input[type="text"] {
+        padding: 6px;
+        margin-bottom: -70px;
+    }
+
+    form input[type="submit"] {
+        padding: 8px;
+        /* Adjust padding for smaller screens */
+        font-size: 1rem;
+        /* Adjust font size for smaller screens */
+        margin-top: 10px;
+        /* Adjust the margin to move the button up */
     }
 
     .home-button {
         padding: 5px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 0.3rem;
     }
 }
