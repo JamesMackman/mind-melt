@@ -12,7 +12,6 @@ In summary, Mind Melt is more than just a quiz project; it's a versatile tool th
 
 ![Responsive Mockup](media/mind_melt_mockup.png)
 
-
 ## Features
 
 ### 1. Responsive Design
@@ -166,9 +165,9 @@ The Footer feature, with its copyright notice, not only fulfills legal obligatio
 #### Social media icons
 
 - **Enhancing Connectivity:** The inclusion of social media icons in the footer establishes a bridge between the website and its audience by providing links to various social platforms.
-Each icon serves as a gateway, inviting users to explore and engage with the website's presence on popular social networks.
+  Each icon serves as a gateway, inviting users to explore and engage with the website's presence on popular social networks.
 - **Strengthening Online Presence:** Social media icons act as visual cues, guiding users to connect with the website beyond its primary domain.
-By linking to social platforms such as Facebook, Twitter, YouTube, and Instagram, the website expands its reach and visibility in the digital space.
+  By linking to social platforms such as Facebook, Twitter, YouTube, and Instagram, the website expands its reach and visibility in the digital space.
 
 The inclusion of social media icons in the footer serves as a dynamic element, facilitating user interaction and community building. It not only expands the website's reach but also creates a multifaceted online presence that extends beyond the boundaries of the main platform.
 
@@ -237,7 +236,7 @@ In the development of this project, extensive testing has been conducted to ensu
 - **Objective:** Ensure seamless integration of Font Awesome icons and Google Fonts across the website.
 - **Testing Details:** Verified that all Font Awesome icons are displayed correctly, and Google Fonts are applied consistently throughout the site. Checked for any loading issues or visual discrepancies.
 
-2. Favicon Implementation:
+2.  Favicon Implementation:
 
 - **Objective:** Confirm the proper display of the favicon.
 - **Testing Details:** Ensured that the favicon appears in the browser tab, bookmark bar, and other relevant locations. Checked for clarity and consistency.
@@ -311,6 +310,25 @@ On different screen sizes, the responsive design ensures that the content is pre
 #### Identified Issues
 
 1. Color Consistency: While the overall design is visually appealing, there is an issue with the color consistency of certain elements, specifically the retry button on the quiz page. After retrying, the button does not revert to its initial color. This is a known issue and has been addressed.
+
+#### Testing summary
+
+| Test                                      | Objective                                                     | Testing Result |
+| ----------------------------------------- | ------------------------------------------------------------- | -------------- |
+| Font Awesome and Google Fonts Integration | Ensure seamless integration of icons and fonts                | ✅             |
+| Favicon Implementation                    | Confirm proper display of the favicon                         | ✅             |
+| Navigation Links                          | Validate the functionality of navigation links                | ✅             |
+| Quiz Rules Section                        | Ensure clarity and accuracy in conveying quiz rules           | ✅             |
+| Progress Bar                              | Confirm accuracy and responsiveness of the progress bar       | ✅             |
+| Question and Answer Display               | Validate the correct display of questions and answers         | ✅             |
+| Scoreboard                                | Confirm accuracy of the scoreboard                            | ✅             |
+| Next Button                               | Validate functionality of the next button                     | ✅             |
+| Footer                                    | Confirm proper formatting and content placement in the footer | ✅             |
+| JavaScript Inclusion                      | Ensure proper inclusion and execution of JavaScript           | ✅             |
+| Quiz Functionality                        | Verify smooth functioning of the quiz                         | ✅             |
+| Responsive Design                         | Confirm user-friendly layout across different devices         | ✅             |
+| Retry Button                              | Validate functionality of the retry button                    | ✅             |
+| Login Page                                | Ensure proper functioning and validation of the login page    | ✅             |
 
 #### Conclusion
 
